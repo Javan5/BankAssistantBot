@@ -60,7 +60,7 @@ public class TelegramBot extends TelegramLongPollingBot {
 				case "/help":
 					sendMessage(chatId, HELP_TEXT);
 				default:
-					sendMessage(chatId, "Sorry, this command was not recognized");
+					sendMessage(chatId, "Sorry, this command was not recognized(");
 					break;
 			}
 		}
